@@ -1,6 +1,10 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
+<<<<<<< HEAD
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+=======
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+>>>>>>> 80ab981 (Initial commit)
 #
 /[Ll]ibrary/
 /[Tt]emp/
@@ -9,13 +13,22 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+<<<<<<< HEAD
 
+=======
+.vsconfig
+>>>>>>> 80ab981 (Initial commit)
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
+<<<<<<< HEAD
 # Recordings can get excessive in size
 /[Rr]ecordings/
+=======
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+>>>>>>> 80ab981 (Initial commit)
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -59,8 +72,13 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+<<<<<<< HEAD
 *.app
 
+=======
+*.keystore
+EditorBuildSettings.asset
+>>>>>>> 80ab981 (Initial commit)
 # Crashlytics generated file
 crashlytics-build.properties
 
@@ -70,3 +88,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< HEAD
+=======
+Packages/packages-lock.json
+ProjectSettings/ProjectVersion.txt
+.idea
+>>>>>>> 80ab981 (Initial commit)
